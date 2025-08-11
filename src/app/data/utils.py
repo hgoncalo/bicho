@@ -1,0 +1,32 @@
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent.absolute()
+
+DIRTY_PATH = BASE_DIR / "past" / "dirty"
+CLEAN_PATH = BASE_DIR / "past" / "clean"
+
+BASE_COLUMNS = [
+    "Div",
+    "Date",
+    "Time",
+    "HomeTeam",
+    "AwayTeam",
+    "FTHG",
+    "FTAG",
+    "FTR",
+    "HTHG",
+    "HTAG",
+    "HTR",
+    "HS",
+    "AS",
+    "HST",
+    "AST",
+    "HF",
+    "AF",
+    "HC",
+    "AC",
+    "HY",
+    "AY",
+    "HR",
+    "AR"
+]
