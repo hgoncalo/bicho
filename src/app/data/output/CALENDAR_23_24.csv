@@ -1,307 +1,307 @@
 ,Date,HomeTeam,AwayTeam,PredHomeGoals,PredAwayGoals,RealHomeGoals,RealAwayGoals,ErrorHomeGoals,ErrorAwayGoals
 0,11/08/2023,Sp Braga,Famalicao,4,1,1,2,-3,1
-1,12/08/2023,Gil Vicente,Portimonense,3,0,5,0,2,0
-2,12/08/2023,Farense,Casa Pia,2,1,0,3,-2,2
-3,12/08/2023,Sp Lisbon,Vizela,3,1,3,2,0,1
-4,13/08/2023,Rio Ave,Chaves,2,1,2,0,0,-1
-5,13/08/2023,Estrela,Guimaraes,1,1,0,1,-1,0
-6,13/08/2023,Arouca,Estoril,2,1,4,3,2,2
-7,14/08/2023,Moreirense,Porto,1,1,1,2,0,1
+1,12/08/2023,Gil Vicente,Portimonense,1,0,5,0,4,0
+2,12/08/2023,Farense,Casa Pia,1,0,0,3,-1,3
+3,12/08/2023,Sp Lisbon,Vizela,2,0,3,2,1,2
+4,13/08/2023,Rio Ave,Chaves,1,1,2,0,1,-1
+5,13/08/2023,Estrela,Guimaraes,1,0,0,1,-1,1
+6,13/08/2023,Arouca,Estoril,1,0,4,3,3,3
+7,14/08/2023,Moreirense,Porto,1,2,1,2,0,0
 8,14/08/2023,Boavista,Benfica,1,2,3,2,2,0
-9,18/08/2023,Casa Pia,Sp Lisbon,2,3,1,2,-1,-1
-10,19/08/2023,Guimaraes,Gil Vicente,0,0,2,1,2,1
-11,19/08/2023,Chaves,Sp Braga,1,2,2,4,1,2
-12,19/08/2023,Benfica,Estrela,4,1,2,0,-2,-1
-13,19/08/2023,Portimonense,Boavista,0,5,1,4,1,-1
-14,20/08/2023,Estoril,Rio Ave,2,1,2,0,0,-1
-15,20/08/2023,Porto,Farense,6,0,2,1,-4,1
-16,20/08/2023,Vizela,Arouca,2,1,2,2,0,1
-17,21/08/2023,Famalicao,Moreirense,2,2,0,0,-2,-2
-18,25/08/2023,Estrela,Estoril,2,1,2,1,0,0
+9,18/08/2023,Casa Pia,Sp Lisbon,1,1,1,2,0,1
+10,19/08/2023,Guimaraes,Gil Vicente,0,1,2,1,2,0
+11,19/08/2023,Chaves,Sp Braga,0,2,2,4,2,2
+12,19/08/2023,Benfica,Estrela,2,1,2,0,0,-1
+13,19/08/2023,Portimonense,Boavista,0,4,1,4,1,0
+14,20/08/2023,Estoril,Rio Ave,2,2,2,0,0,-2
+15,20/08/2023,Porto,Farense,3,0,2,1,-1,1
+16,20/08/2023,Vizela,Arouca,1,1,2,2,1,1
+17,21/08/2023,Famalicao,Moreirense,2,1,0,0,-2,-1
+18,25/08/2023,Estrela,Estoril,1,2,2,1,1,-1
 19,26/08/2023,Arouca,Portimonense,4,0,1,1,-3,1
 20,26/08/2023,Farense,Chaves,2,1,5,0,3,-1
-21,26/08/2023,Gil Vicente,Benfica,2,2,2,3,0,1
-22,27/08/2023,Boavista,Casa Pia,4,1,1,1,-3,0
+21,26/08/2023,Gil Vicente,Benfica,1,1,2,3,1,2
+22,27/08/2023,Boavista,Casa Pia,3,1,1,1,-2,0
 23,27/08/2023,Guimaraes,Vizela,2,0,2,0,0,0
 24,27/08/2023,Sp Lisbon,Famalicao,2,1,1,0,-1,-1
-25,28/08/2023,Rio Ave,Porto,1,1,1,2,0,1
-26,01/09/2023,Vizela,Gil Vicente,2,0,1,0,-1,0
-27,02/09/2023,Casa Pia,Rio Ave,2,1,1,1,-1,0
+25,28/08/2023,Rio Ave,Porto,0,2,1,2,1,0
+26,01/09/2023,Vizela,Gil Vicente,1,2,1,0,0,-2
+27,02/09/2023,Casa Pia,Rio Ave,1,0,1,1,0,1
 28,02/09/2023,Famalicao,Farense,1,1,1,0,0,-1
-29,02/09/2023,Portimonense,Estrela,1,2,1,1,0,-1
-30,02/09/2023,Benfica,Guimaraes,2,1,4,0,2,-1
-31,03/09/2023,Chaves,Moreirense,1,1,1,2,0,1
-32,03/09/2023,Estoril,Boavista,1,2,1,2,0,0
-33,03/09/2023,Porto,Arouca,5,0,1,1,-4,1
+29,02/09/2023,Portimonense,Estrela,0,1,1,1,1,0
+30,02/09/2023,Benfica,Guimaraes,1,1,4,0,3,-1
+31,03/09/2023,Chaves,Moreirense,0,2,1,2,1,0
+32,03/09/2023,Estoril,Boavista,2,2,1,2,-1,0
+33,03/09/2023,Porto,Arouca,2,0,1,1,-1,1
 34,03/09/2023,Sp Braga,Sp Lisbon,2,2,1,1,-1,-1
 35,09/09/2023,Moreirense,Sp Braga,1,1,2,3,1,2
 36,15/09/2023,Estrela,Porto,1,1,0,1,-1,0
-37,16/09/2023,Rio Ave,Famalicao,1,1,1,1,0,0
-38,16/09/2023,Farense,Sp Braga,1,3,3,1,2,-2
-39,16/09/2023,Vizela,Benfica,1,3,1,2,0,-1
-40,17/09/2023,Arouca,Casa Pia,2,1,0,1,-2,0
-41,17/09/2023,Gil Vicente,Estoril,4,1,5,3,1,2
+37,16/09/2023,Rio Ave,Famalicao,0,0,1,1,1,1
+38,16/09/2023,Farense,Sp Braga,2,1,3,1,1,0
+39,16/09/2023,Vizela,Benfica,0,2,1,2,1,0
+40,17/09/2023,Arouca,Casa Pia,1,1,0,1,-1,0
+41,17/09/2023,Gil Vicente,Estoril,1,1,5,3,4,2
 42,17/09/2023,Guimaraes,Portimonense,2,0,1,2,-1,2
-43,17/09/2023,Sp Lisbon,Moreirense,2,1,3,0,1,-1
-44,18/09/2023,Boavista,Chaves,3,1,4,1,1,0
+43,17/09/2023,Sp Lisbon,Moreirense,2,0,3,0,1,0
+44,18/09/2023,Boavista,Chaves,5,0,4,1,-1,1
 45,22/09/2023,Famalicao,Arouca,1,0,1,0,0,0
 46,23/09/2023,Estoril,Vizela,2,1,2,2,0,1
-47,23/09/2023,Moreirense,Farense,2,1,1,0,-1,-1
-48,23/09/2023,Casa Pia,Guimaraes,2,1,0,0,-2,-1
-49,23/09/2023,Porto,Gil Vicente,4,0,2,1,-2,1
-50,24/09/2023,Chaves,Estrela,2,1,2,2,0,1
+47,23/09/2023,Moreirense,Farense,1,2,1,0,0,-2
+48,23/09/2023,Casa Pia,Guimaraes,1,0,0,0,-1,0
+49,23/09/2023,Porto,Gil Vicente,2,1,2,1,0,0
+50,24/09/2023,Chaves,Estrela,1,1,2,2,1,1
 51,24/09/2023,Portimonense,Benfica,1,3,1,3,0,0
-52,24/09/2023,Sp Braga,Boavista,2,3,4,1,2,-2
+52,24/09/2023,Sp Braga,Boavista,2,2,4,1,2,-1
 53,25/09/2023,Sp Lisbon,Rio Ave,2,0,2,0,0,0
-54,28/09/2023,Estrela,Sp Braga,2,3,2,4,0,1
-55,29/09/2023,Benfica,Porto,2,0,1,0,-1,0
-56,30/09/2023,Vizela,Portimonense,2,0,2,3,0,3
+54,28/09/2023,Estrela,Sp Braga,1,2,2,4,1,2
+55,29/09/2023,Benfica,Porto,2,1,1,0,-1,-1
+56,30/09/2023,Vizela,Portimonense,2,1,2,3,0,2
 57,30/09/2023,Boavista,Famalicao,1,1,2,2,1,1
-58,30/09/2023,Farense,Sp Lisbon,0,2,2,3,2,1
-59,01/10/2023,Arouca,Chaves,2,1,0,2,-2,1
+58,30/09/2023,Farense,Sp Lisbon,0,1,2,3,2,2
+59,01/10/2023,Arouca,Chaves,2,0,0,2,-2,2
 60,01/10/2023,Guimaraes,Estoril,1,1,3,2,2,1
 61,01/10/2023,Rio Ave,Moreirense,1,1,0,4,-1,3
-62,02/10/2023,Gil Vicente,Casa Pia,6,1,2,0,-4,-1
-63,06/10/2023,Moreirense,Boavista,4,1,1,1,-3,0
-64,07/10/2023,Chaves,Gil Vicente,1,0,4,2,3,2
+62,02/10/2023,Gil Vicente,Casa Pia,1,1,2,0,1,-1
+63,06/10/2023,Moreirense,Boavista,3,1,1,1,-2,0
+64,07/10/2023,Chaves,Gil Vicente,1,3,4,2,3,-1
 65,07/10/2023,Farense,Vizela,2,1,0,0,-2,-1
-66,07/10/2023,Sp Braga,Rio Ave,7,0,2,1,-5,1
-67,07/10/2023,Estoril,Benfica,1,3,0,1,-1,-2
-68,08/10/2023,Casa Pia,Estrela,2,1,0,1,-2,0
-69,08/10/2023,Famalicao,Guimaraes,2,1,1,3,-1,2
-70,08/10/2023,Porto,Portimonense,3,0,1,0,-2,0
+66,07/10/2023,Sp Braga,Rio Ave,5,0,2,1,-3,1
+67,07/10/2023,Estoril,Benfica,1,4,0,1,-1,-3
+68,08/10/2023,Casa Pia,Estrela,1,1,0,1,-1,0
+69,08/10/2023,Famalicao,Guimaraes,1,1,1,3,0,2
+70,08/10/2023,Porto,Portimonense,2,0,1,0,-1,0
 71,08/10/2023,Sp Lisbon,Arouca,3,0,2,1,-1,1
-72,27/10/2023,Arouca,Moreirense,1,1,0,1,-1,0
-73,28/10/2023,Portimonense,Estoril,3,1,1,0,-2,-1
-74,28/10/2023,Benfica,Casa Pia,3,0,1,1,-2,1
-75,28/10/2023,Guimaraes,Chaves,3,1,5,0,2,-1
-76,28/10/2023,Gil Vicente,Sp Braga,5,4,3,3,-2,-1
-77,29/10/2023,Rio Ave,Farense,1,1,3,4,2,3
-78,29/10/2023,Estrela,Famalicao,2,1,1,0,-1,-1
+72,27/10/2023,Arouca,Moreirense,0,1,0,1,0,0
+73,28/10/2023,Portimonense,Estoril,2,1,1,0,-1,-1
+74,28/10/2023,Benfica,Casa Pia,1,0,1,1,0,1
+75,28/10/2023,Guimaraes,Chaves,3,2,5,0,2,-2
+76,28/10/2023,Gil Vicente,Sp Braga,2,3,3,3,1,0
+77,29/10/2023,Rio Ave,Farense,0,1,3,4,3,3
+78,29/10/2023,Estrela,Famalicao,1,1,1,0,0,-1
 79,29/10/2023,Vizela,Porto,0,0,0,2,0,2
-80,30/10/2023,Boavista,Sp Lisbon,2,2,0,2,-2,0
-81,03/11/2023,Porto,Estoril,3,0,0,1,-3,1
-82,04/11/2023,Chaves,Benfica,0,1,0,2,0,1
-83,04/11/2023,Famalicao,Gil Vicente,1,0,3,1,2,1
-84,04/11/2023,Sp Braga,Portimonense,2,0,6,1,4,1
-85,05/11/2023,Casa Pia,Vizela,2,1,0,1,-2,0
+80,30/10/2023,Boavista,Sp Lisbon,1,2,0,2,-1,0
+81,03/11/2023,Porto,Estoril,2,0,0,1,-2,1
+82,04/11/2023,Chaves,Benfica,0,2,0,2,0,0
+83,04/11/2023,Famalicao,Gil Vicente,1,2,3,1,2,-1
+84,04/11/2023,Sp Braga,Portimonense,2,1,6,1,4,0
+85,05/11/2023,Casa Pia,Vizela,0,0,0,1,0,1
 86,05/11/2023,Moreirense,Guimaraes,1,1,1,0,0,-1
-87,05/11/2023,Rio Ave,Boavista,2,2,2,0,0,-2
-88,05/11/2023,Sp Lisbon,Estrela,3,0,3,2,0,2
-89,06/11/2023,Farense,Arouca,2,1,2,0,0,-1
-90,10/11/2023,Estoril,Casa Pia,2,1,4,0,2,-1
+87,05/11/2023,Rio Ave,Boavista,1,2,2,0,1,-2
+88,05/11/2023,Sp Lisbon,Estrela,2,0,3,2,1,2
+89,06/11/2023,Farense,Arouca,2,0,2,0,0,0
+90,10/11/2023,Estoril,Casa Pia,1,0,4,0,3,0
 91,11/11/2023,Portimonense,Chaves,2,2,2,1,0,-1
 92,11/11/2023,Estrela,Moreirense,0,1,0,1,0,0
-93,11/11/2023,Vizela,Famalicao,2,2,0,0,-2,-2
+93,11/11/2023,Vizela,Famalicao,1,1,0,0,-1,-1
 94,11/11/2023,Guimaraes,Porto,1,0,1,2,0,2
-95,12/11/2023,Boavista,Farense,1,1,1,3,0,2
-96,12/11/2023,Gil Vicente,Rio Ave,6,2,1,1,-5,-1
-97,12/11/2023,Arouca,Sp Braga,2,4,0,1,-2,-3
-98,12/11/2023,Benfica,Sp Lisbon,2,1,2,1,0,0
-99,01/12/2023,Chaves,Vizela,2,1,2,1,0,0
-100,02/12/2023,Farense,Guimaraes,1,2,1,2,0,0
-101,02/12/2023,Rio Ave,Estrela,2,0,1,1,-1,1
+95,12/11/2023,Boavista,Farense,1,2,1,3,0,1
+96,12/11/2023,Gil Vicente,Rio Ave,2,3,1,1,-1,-2
+97,12/11/2023,Arouca,Sp Braga,0,3,0,1,0,-2
+98,12/11/2023,Benfica,Sp Lisbon,1,0,2,1,1,1
+99,01/12/2023,Chaves,Vizela,0,0,2,1,2,1
+100,02/12/2023,Farense,Guimaraes,2,1,1,2,-1,1
+101,02/12/2023,Rio Ave,Estrela,1,1,1,1,0,0
 102,02/12/2023,Famalicao,Porto,0,0,0,3,0,3
-103,02/12/2023,Casa Pia,Portimonense,2,1,1,0,-1,-1
-104,03/12/2023,Sp Braga,Estoril,4,0,3,1,-1,1
+103,02/12/2023,Casa Pia,Portimonense,0,1,1,0,1,-1
+104,03/12/2023,Sp Braga,Estoril,2,1,3,1,1,0
 105,03/12/2023,Moreirense,Benfica,0,0,0,0,0,0
-106,03/12/2023,Boavista,Arouca,1,1,0,4,-1,3
-107,04/12/2023,Sp Lisbon,Gil Vicente,4,0,3,1,-1,1
-108,08/12/2023,Vizela,Sp Braga,1,3,1,3,0,0
-109,08/12/2023,Benfica,Farense,2,0,1,1,-1,1
-110,09/12/2023,Portimonense,Famalicao,2,1,1,1,-1,0
-111,09/12/2023,Guimaraes,Sp Lisbon,2,2,3,2,1,0
-112,09/12/2023,Porto,Casa Pia,4,0,3,1,-1,1
-113,10/12/2023,Estrela,Boavista,3,0,3,1,0,1
-114,10/12/2023,Arouca,Rio Ave,1,1,2,2,1,1
-115,10/12/2023,Estoril,Chaves,2,1,4,0,2,-1
+106,03/12/2023,Boavista,Arouca,0,0,0,4,0,4
+107,04/12/2023,Sp Lisbon,Gil Vicente,3,1,3,1,0,0
+108,08/12/2023,Vizela,Sp Braga,0,2,1,3,1,1
+109,08/12/2023,Benfica,Farense,1,0,1,1,0,1
+110,09/12/2023,Portimonense,Famalicao,1,1,1,1,0,0
+111,09/12/2023,Guimaraes,Sp Lisbon,2,1,3,2,1,1
+112,09/12/2023,Porto,Casa Pia,2,0,3,1,1,1
+113,10/12/2023,Estrela,Boavista,2,0,3,1,1,1
+114,10/12/2023,Arouca,Rio Ave,1,0,2,2,1,2
+115,10/12/2023,Estoril,Chaves,3,1,4,0,1,-1
 116,11/12/2023,Gil Vicente,Moreirense,0,1,1,1,1,0
 117,15/12/2023,Farense,Estrela,2,1,0,0,-2,-1
-118,16/12/2023,Rio Ave,Vizela,3,1,1,1,-2,0
-119,16/12/2023,Arouca,Gil Vicente,2,0,3,0,1,0
-120,16/12/2023,Boavista,Guimaraes,1,6,1,1,0,-5
-121,17/12/2023,Chaves,Casa Pia,2,1,1,3,-1,2
+118,16/12/2023,Rio Ave,Vizela,2,1,1,1,-1,0
+119,16/12/2023,Arouca,Gil Vicente,2,1,3,0,1,-1
+120,16/12/2023,Boavista,Guimaraes,1,4,1,1,0,-3
+121,17/12/2023,Chaves,Casa Pia,1,1,1,3,0,2
 122,17/12/2023,Moreirense,Portimonense,1,0,5,2,4,2
-123,17/12/2023,Famalicao,Estoril,1,1,1,1,0,0
-124,17/12/2023,Sp Braga,Benfica,2,1,0,1,-2,0
-125,18/12/2023,Sp Lisbon,Porto,1,1,2,0,1,-1
+123,17/12/2023,Famalicao,Estoril,0,2,1,1,1,-1
+124,17/12/2023,Sp Braga,Benfica,1,1,0,1,-1,0
+125,18/12/2023,Sp Lisbon,Porto,1,2,2,0,1,-2
 126,23/12/2023,Guimaraes,Rio Ave,2,1,1,0,-1,-1
-127,23/12/2023,Vizela,Moreirense,1,2,0,0,-1,-2
-128,28/12/2023,Estrela,Arouca,2,1,1,4,-1,3
+127,23/12/2023,Vizela,Moreirense,0,2,0,0,0,-2
+128,28/12/2023,Estrela,Arouca,0,1,1,4,1,3
 129,29/12/2023,Benfica,Famalicao,1,0,3,0,2,0
 130,29/12/2023,Porto,Chaves,3,0,1,0,-2,0
-131,30/12/2023,Estoril,Farense,2,1,4,0,2,-1
-132,30/12/2023,Gil Vicente,Boavista,3,1,1,0,-2,-1
+131,30/12/2023,Estoril,Farense,1,0,4,0,3,0
+132,30/12/2023,Gil Vicente,Boavista,1,1,1,0,0,-1
 133,30/12/2023,Casa Pia,Sp Braga,1,2,1,3,0,1
-134,30/12/2023,Portimonense,Sp Lisbon,2,5,1,2,-1,-3
-135,05/01/2024,Sp Lisbon,Estoril,2,0,5,1,3,1
+134,30/12/2023,Portimonense,Sp Lisbon,1,4,1,2,0,-2
+135,05/01/2024,Sp Lisbon,Estoril,1,1,5,1,4,0
 136,05/01/2024,Boavista,Porto,0,1,1,1,1,0
-137,06/01/2024,Estrela,Vizela,1,1,1,1,0,0
-138,06/01/2024,Farense,Gil Vicente,2,0,1,0,-1,0
-139,06/01/2024,Arouca,Benfica,0,2,0,3,0,1
-140,06/01/2024,Sp Braga,Guimaraes,2,1,1,1,-1,0
-141,07/01/2024,Rio Ave,Portimonense,2,0,2,0,0,0
-142,07/01/2024,Famalicao,Chaves,1,1,2,2,1,1
+137,06/01/2024,Estrela,Vizela,0,0,1,1,1,1
+138,06/01/2024,Farense,Gil Vicente,1,1,1,0,0,-1
+139,06/01/2024,Arouca,Benfica,0,1,0,3,0,2
+140,06/01/2024,Sp Braga,Guimaraes,1,1,1,1,0,0
+141,07/01/2024,Rio Ave,Portimonense,1,0,2,0,1,0
+142,07/01/2024,Famalicao,Chaves,1,0,2,2,1,2
 143,08/01/2024,Moreirense,Casa Pia,2,0,1,4,-1,4
-144,12/01/2024,Portimonense,Farense,2,1,1,0,-1,-1
-145,13/01/2024,Casa Pia,Famalicao,2,1,0,2,-2,1
+144,12/01/2024,Portimonense,Farense,1,1,1,0,0,-1
+145,13/01/2024,Casa Pia,Famalicao,3,1,0,2,-3,1
 146,13/01/2024,Chaves,Sp Lisbon,1,4,0,3,-1,-1
-147,13/01/2024,Estoril,Moreirense,2,1,1,3,-1,2
-148,14/01/2024,Gil Vicente,Estrela,1,1,1,1,0,0
-149,14/01/2024,Benfica,Rio Ave,2,0,4,1,2,1
+147,13/01/2024,Estoril,Moreirense,3,1,1,3,-2,2
+148,14/01/2024,Gil Vicente,Estrela,0,1,1,1,1,0
+149,14/01/2024,Benfica,Rio Ave,1,0,4,1,3,1
 150,14/01/2024,Vizela,Boavista,1,0,1,4,0,4
 151,14/01/2024,Porto,Sp Braga,1,1,2,0,1,-1
-152,15/01/2024,Guimaraes,Arouca,1,0,2,1,1,1
-153,18/01/2024,Famalicao,Sp Braga,2,1,1,2,-1,1
-154,18/01/2024,Vizela,Sp Lisbon,1,4,2,5,1,1
-155,19/01/2024,Benfica,Boavista,4,0,2,0,-2,0
-156,20/01/2024,Estoril,Arouca,2,1,1,2,-1,1
-157,20/01/2024,Casa Pia,Farense,2,1,1,3,-1,2
-158,20/01/2024,Porto,Moreirense,3,1,5,0,2,-1
-159,21/01/2024,Portimonense,Gil Vicente,1,0,0,2,-1,2
-160,21/01/2024,Chaves,Rio Ave,2,1,0,0,-2,-1
+152,15/01/2024,Guimaraes,Arouca,1,1,2,1,1,0
+153,18/01/2024,Famalicao,Sp Braga,1,1,1,2,0,1
+154,18/01/2024,Vizela,Sp Lisbon,0,3,2,5,2,2
+155,19/01/2024,Benfica,Boavista,3,0,2,0,-1,0
+156,20/01/2024,Estoril,Arouca,2,3,1,2,-1,-1
+157,20/01/2024,Casa Pia,Farense,1,0,1,3,0,3
+158,20/01/2024,Porto,Moreirense,1,0,5,0,4,0
+159,21/01/2024,Portimonense,Gil Vicente,1,1,0,2,-1,1
+160,21/01/2024,Chaves,Rio Ave,1,2,0,0,-1,-2
 161,21/01/2024,Guimaraes,Estrela,2,0,3,0,1,0
-162,28/01/2024,Boavista,Portimonense,3,0,1,4,-2,4
-163,28/01/2024,Moreirense,Famalicao,2,2,1,0,-1,-2
-164,28/01/2024,Farense,Porto,0,1,1,3,1,2
-165,28/01/2024,Arouca,Vizela,2,1,5,0,3,-1
-166,28/01/2024,Gil Vicente,Guimaraes,1,1,1,0,0,-1
-167,29/01/2024,Estrela,Benfica,0,2,1,4,1,2
-168,29/01/2024,Sp Lisbon,Casa Pia,5,1,8,0,3,-1
+162,28/01/2024,Boavista,Portimonense,2,0,1,4,-1,4
+163,28/01/2024,Moreirense,Famalicao,1,2,1,0,0,-2
+164,28/01/2024,Farense,Porto,0,2,1,3,1,1
+165,28/01/2024,Arouca,Vizela,4,1,5,0,1,-1
+166,28/01/2024,Gil Vicente,Guimaraes,0,1,1,0,1,-1
+167,29/01/2024,Estrela,Benfica,0,3,1,4,1,1
+168,29/01/2024,Sp Lisbon,Casa Pia,6,1,8,0,2,-1
 169,31/01/2024,Rio Ave,Estoril,1,1,1,1,0,0
-170,31/01/2024,Sp Braga,Chaves,2,1,1,1,-1,0
-171,03/02/2024,Portimonense,Arouca,3,1,1,2,-2,1
-172,03/02/2024,Porto,Rio Ave,4,0,0,0,-4,0
-173,04/02/2024,Chaves,Farense,2,1,1,1,-1,0
-174,04/02/2024,Vizela,Guimaraes,1,1,0,1,-1,0
-175,04/02/2024,Benfica,Gil Vicente,2,0,3,0,1,0
+170,31/01/2024,Sp Braga,Chaves,2,0,1,1,-1,1
+171,03/02/2024,Portimonense,Arouca,1,2,1,2,0,0
+172,03/02/2024,Porto,Rio Ave,3,0,0,0,-3,0
+173,04/02/2024,Chaves,Farense,1,1,1,1,0,0
+174,04/02/2024,Vizela,Guimaraes,0,2,0,1,0,-1
+175,04/02/2024,Benfica,Gil Vicente,1,0,3,0,2,0
 176,04/02/2024,Estoril,Estrela,2,1,1,0,-1,-1
 177,04/02/2024,Sp Braga,Moreirense,2,1,1,0,-1,-1
-178,05/02/2024,Casa Pia,Boavista,3,1,0,0,-3,-1
-179,09/02/2024,Estrela,Portimonense,2,0,3,0,1,0
+178,05/02/2024,Casa Pia,Boavista,2,2,0,0,-2,-2
+179,09/02/2024,Estrela,Portimonense,1,2,3,0,2,-2
 180,10/02/2024,Farense,Famalicao,1,0,1,1,0,1
-181,10/02/2024,Moreirense,Chaves,1,1,1,0,0,-1
-182,10/02/2024,Boavista,Estoril,1,1,2,1,1,0
+181,10/02/2024,Moreirense,Chaves,1,0,1,0,0,0
+182,10/02/2024,Boavista,Estoril,0,1,2,1,2,0
 183,11/02/2024,Rio Ave,Casa Pia,1,0,1,0,0,0
 184,11/02/2024,Sp Lisbon,Sp Braga,3,0,5,0,2,0
 185,11/02/2024,Guimaraes,Benfica,0,1,2,2,2,1
-186,12/02/2024,Arouca,Porto,0,1,3,2,3,1
-187,13/02/2024,Gil Vicente,Vizela,2,1,0,1,-2,0
+186,12/02/2024,Arouca,Porto,1,1,3,2,2,1
+187,13/02/2024,Gil Vicente,Vizela,1,0,0,1,-1,1
 188,16/02/2024,Famalicao,Rio Ave,0,0,2,1,2,1
-189,17/02/2024,Chaves,Boavista,2,1,2,1,0,0
-190,17/02/2024,Portimonense,Guimaraes,1,3,1,1,0,-2
-191,17/02/2024,Porto,Estrela,4,1,2,0,-2,-1
-192,18/02/2024,Casa Pia,Arouca,2,1,1,0,-1,-1
+189,17/02/2024,Chaves,Boavista,0,0,2,1,2,1
+190,17/02/2024,Portimonense,Guimaraes,0,2,1,1,1,-1
+191,17/02/2024,Porto,Estrela,2,1,2,0,0,-1
+192,18/02/2024,Casa Pia,Arouca,0,3,1,0,1,-3
 193,18/02/2024,Benfica,Vizela,5,0,6,1,1,1
-194,18/02/2024,Estoril,Gil Vicente,1,0,1,3,0,3
+194,18/02/2024,Estoril,Gil Vicente,1,1,1,3,0,2
 195,18/02/2024,Sp Braga,Farense,1,1,2,1,1,0
-196,19/02/2024,Moreirense,Sp Lisbon,0,5,0,2,0,-3
+196,19/02/2024,Moreirense,Sp Lisbon,0,3,0,2,0,-1
 197,23/02/2024,Arouca,Famalicao,2,1,3,2,1,1
 198,24/02/2024,Farense,Moreirense,1,0,0,1,-1,1
-199,24/02/2024,Estrela,Chaves,2,1,1,1,-1,0
-200,24/02/2024,Guimaraes,Casa Pia,2,0,0,2,-2,2
-201,25/02/2024,Vizela,Estoril,2,1,3,3,1,2
-202,25/02/2024,Benfica,Portimonense,6,0,4,0,-2,0
-203,25/02/2024,Gil Vicente,Porto,2,1,1,1,-1,0
-204,25/02/2024,Rio Ave,Sp Lisbon,0,3,3,3,3,0
-205,26/02/2024,Boavista,Sp Braga,2,1,0,4,-2,3
-206,01/03/2024,Chaves,Arouca,2,1,1,5,-1,4
-207,02/03/2024,Moreirense,Rio Ave,1,0,0,0,-1,0
+199,24/02/2024,Estrela,Chaves,1,1,1,1,0,0
+200,24/02/2024,Guimaraes,Casa Pia,1,0,0,2,-1,2
+201,25/02/2024,Vizela,Estoril,1,1,3,3,2,2
+202,25/02/2024,Benfica,Portimonense,5,0,4,0,-1,0
+203,25/02/2024,Gil Vicente,Porto,0,1,1,1,1,0
+204,25/02/2024,Rio Ave,Sp Lisbon,0,2,3,3,3,1
+205,26/02/2024,Boavista,Sp Braga,1,1,0,4,-1,3
+206,01/03/2024,Chaves,Arouca,1,1,1,5,0,4
+207,02/03/2024,Moreirense,Rio Ave,1,1,0,0,-1,-1
 208,02/03/2024,Estoril,Guimaraes,2,1,1,3,-1,2
-209,02/03/2024,Sp Braga,Estrela,3,1,3,0,0,-1
-210,03/03/2024,Casa Pia,Gil Vicente,1,0,0,0,-1,0
-211,03/03/2024,Portimonense,Vizela,1,1,0,0,-1,-1
-212,03/03/2024,Sp Lisbon,Farense,5,1,3,2,-2,1
-213,03/03/2024,Porto,Benfica,2,2,5,0,3,-2
-214,04/03/2024,Famalicao,Boavista,4,1,1,1,-3,0
-215,08/03/2024,Portimonense,Porto,0,1,0,3,0,2
-216,08/03/2024,Estrela,Casa Pia,2,1,3,1,1,0
-217,09/03/2024,Vizela,Farense,2,1,2,1,0,0
+209,02/03/2024,Sp Braga,Estrela,2,0,3,0,1,0
+210,03/03/2024,Casa Pia,Gil Vicente,1,1,0,0,-1,-1
+211,03/03/2024,Portimonense,Vizela,2,2,0,0,-2,-2
+212,03/03/2024,Sp Lisbon,Farense,5,0,3,2,-2,2
+213,03/03/2024,Porto,Benfica,1,2,5,0,4,-2
+214,04/03/2024,Famalicao,Boavista,3,0,1,1,-2,1
+215,08/03/2024,Portimonense,Porto,0,2,0,3,0,1
+216,08/03/2024,Estrela,Casa Pia,0,0,3,1,3,1
+217,09/03/2024,Vizela,Farense,1,1,2,1,1,0
 218,09/03/2024,Boavista,Moreirense,0,0,1,0,1,0
-219,09/03/2024,Rio Ave,Sp Braga,1,2,0,0,-1,-2
-220,09/03/2024,Guimaraes,Famalicao,2,1,1,0,-1,-1
-221,10/03/2024,Arouca,Sp Lisbon,2,4,0,3,-2,-1
-222,10/03/2024,Benfica,Estoril,4,1,3,1,-1,0
-223,11/03/2024,Gil Vicente,Chaves,2,0,0,0,-2,0
+219,09/03/2024,Rio Ave,Sp Braga,0,1,0,0,0,-1
+220,09/03/2024,Guimaraes,Famalicao,2,0,1,0,-1,0
+221,10/03/2024,Arouca,Sp Lisbon,4,3,0,3,-4,0
+222,10/03/2024,Benfica,Estoril,6,1,3,1,-3,0
+223,11/03/2024,Gil Vicente,Chaves,1,0,0,0,-1,0
 224,15/03/2024,Estoril,Portimonense,2,0,1,0,-1,0
 225,16/03/2024,Famalicao,Estrela,1,1,0,0,-1,-1
-226,16/03/2024,Farense,Rio Ave,0,0,1,1,1,1
+226,16/03/2024,Farense,Rio Ave,0,1,1,1,1,0
 227,16/03/2024,Sp Braga,Gil Vicente,1,0,2,1,1,1
-228,16/03/2024,Porto,Vizela,5,0,4,1,-1,1
-229,17/03/2024,Chaves,Guimaraes,1,1,1,2,0,1
+228,16/03/2024,Porto,Vizela,4,0,4,1,0,1
+229,17/03/2024,Chaves,Guimaraes,0,1,1,2,1,1
 230,17/03/2024,Moreirense,Arouca,0,0,1,0,1,0
-231,17/03/2024,Casa Pia,Benfica,2,3,0,1,-2,-2
+231,17/03/2024,Casa Pia,Benfica,1,2,0,1,-1,-1
 232,17/03/2024,Sp Lisbon,Boavista,4,0,6,1,2,1
-233,29/03/2024,Gil Vicente,Famalicao,1,0,1,2,0,2
-234,29/03/2024,Benfica,Chaves,3,1,1,0,-2,-1
-235,29/03/2024,Estrela,Sp Lisbon,1,5,1,2,0,-3
-236,30/03/2024,Arouca,Farense,1,1,2,1,1,0
+233,29/03/2024,Gil Vicente,Famalicao,0,0,1,2,1,2
+234,29/03/2024,Benfica,Chaves,3,0,1,0,-2,0
+235,29/03/2024,Estrela,Sp Lisbon,0,3,1,2,1,-1
+236,30/03/2024,Arouca,Farense,2,1,2,1,0,0
 237,30/03/2024,Guimaraes,Moreirense,0,0,1,0,1,0
 238,30/03/2024,Boavista,Rio Ave,0,1,0,0,0,-1
-239,30/03/2024,Estoril,Porto,0,2,1,0,1,-2
-240,31/03/2024,Vizela,Casa Pia,1,1,0,4,-1,3
-241,01/04/2024,Portimonense,Sp Braga,0,2,3,5,3,3
-242,05/04/2024,Farense,Boavista,2,1,2,0,0,-1
-243,06/04/2024,Famalicao,Vizela,1,0,3,2,2,2
-244,06/04/2024,Rio Ave,Gil Vicente,1,0,3,0,2,0
-245,06/04/2024,Sp Braga,Arouca,4,1,0,3,-4,2
+239,30/03/2024,Estoril,Porto,0,3,1,0,1,-3
+240,31/03/2024,Vizela,Casa Pia,1,0,0,4,-1,4
+241,01/04/2024,Portimonense,Sp Braga,0,1,3,5,3,4
+242,05/04/2024,Farense,Boavista,1,1,2,0,1,-1
+243,06/04/2024,Famalicao,Vizela,2,0,3,2,1,2
+244,06/04/2024,Rio Ave,Gil Vicente,0,0,3,0,3,0
+245,06/04/2024,Sp Braga,Arouca,3,1,0,3,-3,2
 246,06/04/2024,Sp Lisbon,Benfica,3,1,2,1,-1,0
-247,07/04/2024,Chaves,Portimonense,3,0,2,3,-1,3
-248,07/04/2024,Moreirense,Estrela,1,0,2,2,1,2
-249,07/04/2024,Porto,Guimaraes,2,1,1,2,-1,1
-250,08/04/2024,Casa Pia,Estoril,2,1,0,0,-2,-1
-251,12/04/2024,Gil Vicente,Sp Lisbon,1,5,0,4,-1,-1
-252,13/04/2024,Guimaraes,Farense,2,0,1,1,-1,1
-253,13/04/2024,Porto,Famalicao,3,1,2,2,-1,1
-254,13/04/2024,Estoril,Sp Braga,2,2,0,1,-2,-1
+247,07/04/2024,Chaves,Portimonense,1,1,2,3,1,2
+248,07/04/2024,Moreirense,Estrela,0,0,2,2,2,2
+249,07/04/2024,Porto,Guimaraes,1,0,1,2,0,2
+250,08/04/2024,Casa Pia,Estoril,1,0,0,0,-1,0
+251,12/04/2024,Gil Vicente,Sp Lisbon,0,3,0,4,0,1
+252,13/04/2024,Guimaraes,Farense,1,0,1,1,0,1
+253,13/04/2024,Porto,Famalicao,2,1,2,2,0,1
+254,13/04/2024,Estoril,Sp Braga,1,1,0,1,-1,0
 255,14/04/2024,Estrela,Rio Ave,0,1,2,2,2,1
-256,14/04/2024,Arouca,Boavista,2,0,2,1,0,1
-257,14/04/2024,Portimonense,Casa Pia,4,2,2,2,-2,0
-258,14/04/2024,Benfica,Moreirense,2,0,3,0,1,0
-259,15/04/2024,Vizela,Chaves,2,1,0,1,-2,0
-260,16/04/2024,Famalicao,Sp Lisbon,1,4,0,1,-1,-3
-261,19/04/2024,Rio Ave,Arouca,3,0,1,1,-2,1
-262,20/04/2024,Moreirense,Gil Vicente,2,0,0,1,-2,1
-263,20/04/2024,Boavista,Estrela,1,1,1,1,0,0
-264,20/04/2024,Sp Braga,Vizela,2,1,2,1,0,0
-265,21/04/2024,Chaves,Estoril,2,1,2,2,0,1
-266,21/04/2024,Famalicao,Portimonense,3,0,2,2,-1,2
+256,14/04/2024,Arouca,Boavista,3,0,2,1,-1,1
+257,14/04/2024,Portimonense,Casa Pia,1,2,2,2,1,0
+258,14/04/2024,Benfica,Moreirense,1,0,3,0,2,0
+259,15/04/2024,Vizela,Chaves,2,2,0,1,-2,-1
+260,16/04/2024,Famalicao,Sp Lisbon,1,3,0,1,-1,-2
+261,19/04/2024,Rio Ave,Arouca,1,1,1,1,0,0
+262,20/04/2024,Moreirense,Gil Vicente,1,0,0,1,-1,1
+263,20/04/2024,Boavista,Estrela,1,2,1,1,0,-1
+264,20/04/2024,Sp Braga,Vizela,3,0,2,1,-1,1
+265,21/04/2024,Chaves,Estoril,0,0,2,2,2,2
+266,21/04/2024,Famalicao,Portimonense,2,1,2,2,0,1
 267,21/04/2024,Casa Pia,Porto,1,1,1,2,0,1
 268,21/04/2024,Sp Lisbon,Guimaraes,2,0,3,0,1,0
-269,22/04/2024,Farense,Benfica,1,2,1,3,0,1
-270,26/04/2024,Gil Vicente,Arouca,1,1,2,2,1,1
-271,27/04/2024,Casa Pia,Chaves,2,1,3,1,1,0
-272,27/04/2024,Vizela,Rio Ave,1,1,1,1,0,0
-273,27/04/2024,Benfica,Sp Braga,3,1,3,1,0,0
-274,27/04/2024,Guimaraes,Boavista,2,0,1,0,-1,0
-275,28/04/2024,Portimonense,Moreirense,4,0,0,2,-4,2
+269,22/04/2024,Farense,Benfica,1,1,1,3,0,2
+270,26/04/2024,Gil Vicente,Arouca,0,2,2,2,2,0
+271,27/04/2024,Casa Pia,Chaves,1,1,3,1,2,0
+272,27/04/2024,Vizela,Rio Ave,0,2,1,1,1,-1
+273,27/04/2024,Benfica,Sp Braga,3,0,3,1,0,1
+274,27/04/2024,Guimaraes,Boavista,1,0,1,0,0,0
+275,28/04/2024,Portimonense,Moreirense,2,0,0,2,-2,2
 276,28/04/2024,Estoril,Famalicao,1,1,1,0,0,-1
-277,28/04/2024,Porto,Sp Lisbon,1,3,2,2,1,-1
+277,28/04/2024,Porto,Sp Lisbon,0,2,2,2,2,0
 278,29/04/2024,Estrela,Farense,2,1,0,3,-2,2
 279,03/05/2024,Moreirense,Vizela,1,0,1,0,0,0
-280,04/05/2024,Boavista,Gil Vicente,1,0,1,1,0,1
-281,04/05/2024,Rio Ave,Guimaraes,1,1,2,1,1,0
+280,04/05/2024,Boavista,Gil Vicente,1,1,1,1,0,0
+281,04/05/2024,Rio Ave,Guimaraes,1,0,2,1,1,1
 282,04/05/2024,Sp Lisbon,Portimonense,5,0,3,0,-2,0
-283,04/05/2024,Chaves,Porto,1,1,0,3,-1,2
-284,05/05/2024,Farense,Estoril,2,1,3,2,1,1
-285,05/05/2024,Arouca,Estrela,2,1,0,0,-2,-1
-286,05/05/2024,Sp Braga,Casa Pia,2,1,4,3,2,2
+283,04/05/2024,Chaves,Porto,1,2,0,3,-1,1
+284,05/05/2024,Farense,Estoril,1,0,3,2,2,2
+285,05/05/2024,Arouca,Estrela,3,0,0,0,-3,0
+286,05/05/2024,Sp Braga,Casa Pia,1,2,4,3,3,1
 287,05/05/2024,Famalicao,Benfica,0,2,2,0,2,-2
-288,10/05/2024,Chaves,Famalicao,1,1,0,1,-1,0
+288,10/05/2024,Chaves,Famalicao,0,2,0,1,0,-1
 289,11/05/2024,Portimonense,Rio Ave,1,2,2,2,1,0
-290,11/05/2024,Vizela,Estrela,2,1,4,0,2,-1
-291,11/05/2024,Estoril,Sp Lisbon,0,3,0,1,0,-2
+290,11/05/2024,Vizela,Estrela,0,0,4,0,4,0
+291,11/05/2024,Estoril,Sp Lisbon,0,2,0,1,0,-1
 292,11/05/2024,Guimaraes,Sp Braga,2,2,2,3,0,1
-293,12/05/2024,Gil Vicente,Farense,3,1,2,0,-1,-1
-294,12/05/2024,Benfica,Arouca,3,1,5,0,2,-1
+293,12/05/2024,Gil Vicente,Farense,1,2,2,0,1,-2
+294,12/05/2024,Benfica,Arouca,1,0,5,0,4,0
 295,12/05/2024,Casa Pia,Moreirense,1,1,0,1,-1,0
-296,12/05/2024,Porto,Boavista,5,0,2,1,-3,1
-297,17/05/2024,Famalicao,Casa Pia,2,0,1,2,-1,2
+296,12/05/2024,Porto,Boavista,2,0,2,1,0,1
+297,17/05/2024,Famalicao,Casa Pia,1,0,1,2,0,2
 298,17/05/2024,Rio Ave,Benfica,1,2,1,1,0,-1
-299,18/05/2024,Arouca,Guimaraes,2,1,1,3,-1,2
+299,18/05/2024,Arouca,Guimaraes,1,2,1,3,0,1
 300,18/05/2024,Boavista,Vizela,1,1,2,2,1,1
-301,18/05/2024,Estrela,Gil Vicente,1,0,1,0,0,0
-302,18/05/2024,Farense,Portimonense,3,0,1,3,-2,3
+301,18/05/2024,Estrela,Gil Vicente,0,2,1,0,1,-2
+302,18/05/2024,Farense,Portimonense,2,1,1,3,-1,2
 303,18/05/2024,Moreirense,Estoril,1,0,2,1,1,1
-304,18/05/2024,Sp Lisbon,Chaves,2,0,3,0,1,0
-305,18/05/2024,Sp Braga,Porto,2,2,0,1,-2,-1
+304,18/05/2024,Sp Lisbon,Chaves,3,0,3,0,0,0
+305,18/05/2024,Sp Braga,Porto,2,3,0,1,-2,-2

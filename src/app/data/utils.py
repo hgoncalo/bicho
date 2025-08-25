@@ -38,8 +38,12 @@ SEASONS = [
     "21_22",
     "22_23",
     "23_24",
-    "24_25"
+    "24_25",
+    "25_26"
 ]
 
 POISSON_LEARNING_BIAS = 0.1
 POISSON_EWMA = 0.2
+
+LEAGUE_AVG_SCORED = 1.4
+LEAGUE_AVG_AGAINST = 1.2
