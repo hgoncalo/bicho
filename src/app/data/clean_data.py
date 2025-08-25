@@ -12,7 +12,6 @@ def getData():
 def cleanData(filePath,fileName):
     df = pd.read_csv(filePath, usecols=utils.BASE_COLUMNS)
     df.to_csv(f"{utils.CLEAN_PATH}/{fileName}")
-    print(f"Saved in: {utils.CLEAN_PATH}")
     return
 
 if __name__ == "__main__":

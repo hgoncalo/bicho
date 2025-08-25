@@ -1,2 +1,7 @@
 src/app/data/__pycache__
 docs/TODO.md
+docs/MODELS.md
+Bets.xlsx
+src/app/models/__pycache__
+src/app/models/.ipynb_checkpoints
+src/app/graphs
