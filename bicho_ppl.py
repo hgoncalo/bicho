@@ -12,7 +12,7 @@ sys.path.append(str(src_app_path))
 
 from data import utils
 from data import clean_data
-from models import poisson,poisson_revamped
+from models import poisson,poisson_revamped, poisson_predict
 
 # -1 if doesen't exist, 0 if dirty, 1 if clean
 def fileExists(file_name):
@@ -50,6 +50,7 @@ def main():
             poisson_revamped.start()
         else:
             poisson.start()
+        poisson_predict.predictMatchweek(utils.GAMES_TO_PREDICT)
     return 0
 
 if __name__ == '__main__':

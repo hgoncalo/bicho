@@ -63,3 +63,16 @@ POISSON_REVAMPED_EWMA = 0.05
 POISSON_REVAMPED_OD = 1.07
 POISSON_REVAMPED_RF_WEIGHT = 0.3
 POISSON_REVAMPED_SEASON_WEIGHT = 0.325
+
+# GAMES TO PREDICT
+GAMES_TO_PREDICT = [
+    ("Guimaraes","AVS"),
+    ("Casa Pia","Alverca"),
+    ("Moreirense","Famalicao"),
+    ("Nacional","Benfica"),
+    ("Gil Vicente","Tondela"),
+    ("Rio Ave","Santa Clara"),
+    ("Sp Lisbon", "Estrela"),
+    ("Porto","Estoril"),
+    ("Arouca","Sp Braga")
+]
