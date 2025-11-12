@@ -5,3 +5,4 @@ Bets.xlsx
 src/app/models/__pycache__
 src/app/models/.ipynb_checkpoints
 src/app/graphs
+src/app/utils/bets.md

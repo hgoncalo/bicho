@@ -1,6 +1,6 @@
 from os import path,listdir
 import pandas as pd
-import utils
+from . import utils
 
 def getData():
     for element in listdir(utils.DIRTY_PATH):
