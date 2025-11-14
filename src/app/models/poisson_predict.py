@@ -1,13 +1,11 @@
 import os
 import sys
 import pandas as pd
-from pathlib import Path # Adicionado para melhor gestão de caminhos
 
 # Configuração do Path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
-from app.data import utils
-# poisson_extended está na mesma pasta (src/app/models/)
-import poisson_extended
+from app.data import fetch_next,utils
+from . import poisson_extended
 
 def predictMatch(team_a, team_b):
     last_season = utils.SEASONS[-1]
@@ -27,13 +25,19 @@ def predictMatch(team_a, team_b):
     team_b_lambda_def = team_b_stats['LambdaDef']
     return poisson_extended.betterPoissonStats(team_a_lambda_att * team_b_lambda_def * team_a_hf * utils.POISSON_OD, team_b_lambda_att * team_a_lambda_def * utils.POISSON_OD)
 
-def predictMatchweek(games):
+def predictMatchweek():
+    games = fetch_next.fetchNextMatchweek()
+    match_predictions = []
+
     for home_team, away_team in games:
-        print("-------------------------------------")
-        print(f"NEW MATCH: {home_team} VS {away_team}")
-        predictMatch(home_team,away_team)
-        print("-------------------------------------")
-    return
+        prediction = dict()
+        prediction['matchInfo'] = {
+            "homeTeam" : home_team,
+            "awayTeam" : away_team
+        }
+        prediction['matchPredictions'] = predictMatch(home_team,away_team)
+        match_predictions.append(prediction)
+    return match_predictions
 
 if __name__ == "__main__":
-    predictMatchweek(utils.GAMES_TO_PREDICT)
+    predictMatchweek()

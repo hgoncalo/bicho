@@ -8,8 +8,11 @@ OUTPUT_PATH = BASE_DIR / "output" / "poisson"
 OUTPUT_PATH_REVAMPED = BASE_DIR / "output" / "poisson_revamped"
 
 USED_MODEL = "poisson_revamped"
-
 LEAGUE_ID = "P1"
+LEAGUE_AGENDA_URL = "https://www.zerozero.pt/competicao/liga-portuguesa"
+WEB_HEADERS = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
 
 BASE_COLUMNS = [
     "Div",
@@ -63,16 +66,3 @@ POISSON_REVAMPED_EWMA = 0.05
 POISSON_REVAMPED_OD = 1.07
 POISSON_REVAMPED_RF_WEIGHT = 0.3
 POISSON_REVAMPED_SEASON_WEIGHT = 0.325
-
-# GAMES TO PREDICT
-GAMES_TO_PREDICT = [
-    ("Guimaraes","AVS"),
-    ("Casa Pia","Alverca"),
-    ("Moreirense","Famalicao"),
-    ("Nacional","Benfica"),
-    ("Gil Vicente","Tondela"),
-    ("Rio Ave","Santa Clara"),
-    ("Sp Lisbon", "Estrela"),
-    ("Porto","Estoril"),
-    ("Arouca","Sp Braga")
-]

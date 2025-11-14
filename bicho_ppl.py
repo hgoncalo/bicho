@@ -2,6 +2,7 @@
 # doesen't include poisson_extended calls
 import requests
 import sys
+import json
 from os import path
 from pathlib import Path
 
@@ -50,7 +51,15 @@ def main():
             poisson_revamped.start()
         else:
             poisson.start()
-        poisson_predict.predictMatchweek(utils.GAMES_TO_PREDICT)
+        output = poisson_predict.predictMatchweek()
+
+        if output:
+            output_final_path = project_root / "matchweek_predictions.json"
+            try:
+                with open(output_final_path,"w") as f:
+                    json.dump(output,f,indent=2)
+            except:
+                return 1
     return 0
 
 if __name__ == '__main__':
