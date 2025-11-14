@@ -213,8 +213,7 @@ def start():
     rf_weight = utils.POISSON_REVAMPED_RF_WEIGHT
     seasonw = utils.POISSON_REVAMPED_SEASON_WEIGHT
     
-    for s in range(0,len(utils.SEASONS)):
-        season = utils.SEASONS[s]
+    for season in utils.SEASONS:
         file = utils.OUTPUT_PATH_REVAMPED / f"{season}.csv"
         if (file.is_file()):
             old_season = file

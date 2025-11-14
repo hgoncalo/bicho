@@ -2,6 +2,7 @@
 # doesen't include poisson_extended calls
 import requests
 import sys
+import json
 from os import path
 from pathlib import Path
 
@@ -12,7 +13,7 @@ sys.path.append(str(src_app_path))
 
 from data import utils
 from data import clean_data
-from models import poisson,poisson_revamped
+from models import poisson,poisson_revamped, poisson_predict
 
 # -1 if doesen't exist, 0 if dirty, 1 if clean
 def fileExists(file_name):
@@ -50,6 +51,15 @@ def main():
             poisson_revamped.start()
         else:
             poisson.start()
+        output = poisson_predict.predictMatchweek()
+
+        if output:
+            output_final_path = project_root / "matchweek_predictions.json"
+            try:
+                with open(output_final_path,"w") as f:
+                    json.dump(output,f,indent=2)
+            except:
+                return 1
     return 0
 
 if __name__ == '__main__':
