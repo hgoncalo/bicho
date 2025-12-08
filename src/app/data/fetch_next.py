@@ -29,7 +29,7 @@ def fetchNextMatchweek():
         fs_html = response.text
         soup = BeautifulSoup(fs_html, 'html.parser')
         sp = soup.select(".box > #fixture_games")
-        next_fixture = sp[1]
+        next_fixture = sp[0]
         fixture_list = next_fixture.find_all("tr")
 
         for f in fixture_list:
