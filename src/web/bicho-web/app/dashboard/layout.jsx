@@ -45,10 +45,6 @@ export default function DashboardLayout({ children }) {
 
   return (
     <div className="flex h-screen bg-black text-white selection:bg-zinc-800 overflow-hidden">
-      
-      {/* =================================================
-          SIDEBAR (Desktop - Hidden on Mobile)
-      ================================================= */}
       <aside className="w-64 border-r border-zinc-900 flex-col hidden md:flex">
         <div className="p-8">
           <h1 className="text-xl font-bold tracking-widest text-white uppercase">Bicho</h1>
@@ -86,12 +82,7 @@ export default function DashboardLayout({ children }) {
         </div>
       </aside>
 
-      {/* =================================================
-          ZONA PRINCIPAL (Conteúdo + Header Mobile)
-      ================================================= */}
       <div className="flex-1 flex flex-col h-full relative">
-        
-        {/* 📱 HEADER MOBILE */}
         <header className="md:hidden h-16 border-b border-zinc-900 flex items-center justify-between px-6 bg-black z-20 shrink-0">
           <span className="text-lg font-bold tracking-widest text-white uppercase">Bicho</span>
           <button 
@@ -102,11 +93,8 @@ export default function DashboardLayout({ children }) {
           </button>
         </header>
 
-        {/* 📱 MENU MOBILE OVERLAY */}
         {mobileMenuOpen && (
           <div className="absolute inset-0 z-50 bg-black flex flex-col p-6 animate-in fade-in slide-in-from-top-5 duration-200 md:hidden">
-            
-            {/* Topo Mobile */}
             <div className="flex items-center justify-between mb-8">
               <span className="text-xl font-bold tracking-widest text-white uppercase">Menu</span>
               <button 
@@ -117,7 +105,6 @@ export default function DashboardLayout({ children }) {
               </button>
             </div>
 
-            {/* Links Mobile */}
             <nav className="flex flex-col gap-2">
               {menuItems.map((item) => {
                 const isActive = pathname === item.href
@@ -139,10 +126,8 @@ export default function DashboardLayout({ children }) {
                 )
               })}
               
-              {/* Divisória subtil */}
               <div className="h-px bg-zinc-900 my-2 mx-4"></div>
 
-              {/* Botão Sair Mobile (Igualado ao Desktop) */}
               <button 
                 onClick={handleLogout}
                 className="flex items-center gap-4 px-4 py-4 text-zinc-500 hover:text-white hover:bg-zinc-950 rounded-xl text-lg transition-colors group"
@@ -154,7 +139,6 @@ export default function DashboardLayout({ children }) {
           </div>
         )}
 
-        {/* ÁREA DE CONTEÚDO */}
         <main className="flex-1 overflow-y-auto bg-black">
           <div className="max-w-4xl mx-auto p-6 md:p-12">
             {children}

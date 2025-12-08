@@ -94,8 +94,9 @@ export default function GameDetailsPage() {
   useEffect(() => {
     const fetchGame = async () => {
       setLoading(true)
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
       try {
-        const res = await fetch('http://localhost:5000/predictions')
+        const res = await fetch(`${API_URL}/predictions`)
         if (!res.ok) throw new Error('Erro API')
         const allGames = await res.json()
 

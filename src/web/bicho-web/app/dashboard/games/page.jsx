@@ -34,8 +34,9 @@ export default function GamesPage() {
   const fetchGames = async () => {
     setLoading(true)
     setError(null)
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
     try {
-      const res = await fetch('http://localhost:5000/predictions')
+      const res = await fetch(`${API_URL}/predictions`)
       if (!res.ok) throw new Error('Falha ao carregar jogos')
       const data = await res.json()
       setGames(data)
