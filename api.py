@@ -19,8 +19,14 @@ frontend_origin = os.getenv("ALLOWED_ORIGIN", "*")
 CORS(app, resources={r"/*": {"origins": frontend_origin}})
 app.config['SECRET_KEY'] = os.getenv("FLASK_SECRET_KEY")
 app.config['JWT_SECRET_KEY'] = os.getenv("JWT_SECRET_KEY")
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATABASE_URL", "sqlite:///bicho.db")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db_url = os.getenv('DATABASE_URL', 'sqlite:///instance/bicho.db')
+if db_url.startswith("postgres://"):
+    db_url = db_url.replace("postgres://", "postgresql://", 1)
+    
+app.config['SQLALCHEMY_DATABASE_URI'] = db_url
+
 
 bcrypt = Bcrypt(app)
 jwt = JWTManager(app)
