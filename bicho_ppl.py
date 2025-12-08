@@ -3,13 +3,15 @@
 import requests
 import sys
 import json
+import os
 from os import path
 from pathlib import Path
 
 project_root = Path(__file__).resolve().parent 
-# Adiciona o diretório 'src/app' ao path
 src_app_path = project_root / 'src' / 'app'
 sys.path.append(str(src_app_path))
+
+from api import app, db, Prediction 
 
 from data import utils
 from data import clean_data
@@ -23,7 +25,7 @@ def fileExists(file_name):
 
 def extractSeason(cur_season):
     cb = fileExists(cur_season)
-    if (cb < 0 | (cur_season == utils.SEASONS[-1])):
+    if (cb < 0 or (cur_season == utils.SEASONS[-1])): 
         season_id = cur_season.replace('_','')
         season_url = f"https://www.football-data.co.uk/mmz4281/{season_id}/{utils.LEAGUE_ID}.csv"
         try:
@@ -33,7 +35,7 @@ def extractSeason(cur_season):
             with open(filePath, "wb") as f:
                 f.write(response.content)
         except:
-            return 1 #error
+            return 1 
     return 0
 
 def fetchSeasons():
@@ -42,6 +44,32 @@ def fetchSeasons():
             return 1
     clean_data.getData()
     return 0
+
+def save_predictions_to_db(predictions_list):
+    with app.app_context():
+        try:
+            db.session.query(Prediction).delete()
+        
+            new_predictions = []
+            for p in predictions_list:
+                home = p['matchInfo']['homeTeam']
+                away = p['matchInfo']['awayTeam']
+                data_json = json.dumps(p)
+                
+                new_prediction = Prediction(
+                    home_team=home,
+                    away_team=away,
+                    data_json=data_json
+                )
+                new_predictions.append(new_prediction)
+            
+            db.session.add_all(new_predictions)
+            db.session.commit()
+            return 0
+        except Exception as e:
+            db.session.rollback()
+            print(f"Error updating DB: {e}")
+            return 1
 
 def main():
     if (fetchSeasons() == 1):
@@ -54,13 +82,10 @@ def main():
         output = poisson_predict.predictMatchweek()
 
         if output:
-            output_final_path = project_root / "matchweek_predictions.json"
-            try:
-                with open(output_final_path,"w") as f:
-                    json.dump(output,f,indent=2)
-            except:
+            if (save_predictions_to_db(output) == 1):
                 return 1
     return 0
 
 if __name__ == '__main__':
-    main()
+    if main() != 0:
+        sys.exit(1)

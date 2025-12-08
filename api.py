@@ -1,20 +1,14 @@
 import os
 import json
-from pathlib import Path
 from flask import *
 from flask_bcrypt import Bcrypt
 from flask_cors import CORS
 from flask_jwt_extended import *
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from dotenv import load_dotenv
-
-PROJECT_ROOT = Path(__file__).resolve().parent
-JSON_FILE_PATH = PROJECT_ROOT / "matchweek_predictions.json"
 
 app = Flask(__name__)
 
-load_dotenv()
 frontend_origin = os.getenv("ALLOWED_ORIGIN", "*")
 CORS(app, resources={r"/*": {"origins": frontend_origin}})
 app.config['SECRET_KEY'] = os.getenv("FLASK_SECRET_KEY")
@@ -27,7 +21,6 @@ if db_url.startswith("postgres://"):
     
 app.config['SQLALCHEMY_DATABASE_URI'] = db_url
 
-
 bcrypt = Bcrypt(app)
 jwt = JWTManager(app)
 db = SQLAlchemy(app)
@@ -38,6 +31,23 @@ class User(db.Model):
     username = db.Column(db.String(16), unique=True, nullable=False)
     password = db.Column(db.String(128), nullable=False)
 
+class Prediction(db.Model):
+    __tablename__ = 'predictions' 
+    id = db.Column(db.Integer, primary_key=True)
+    home_team = db.Column(db.String(50), nullable=False)
+    away_team = db.Column(db.String(50), nullable=False)
+    data_json = db.Column(db.Text, nullable=False)
+
+    def to_dict(self):
+        try:
+            return json.loads(self.data_json)
+        except json.JSONDecodeError:
+            return {
+                "id": self.id, 
+                "matchInfo": {"homeTeam": self.home_team, "awayTeam": self.away_team},
+                "error": "JSON Decode Error"
+            }
+        
 @app.route('/')
 def root():
     return jsonify({
@@ -48,15 +58,16 @@ def root():
 @app.route('/predictions')
 def get_predictions():
     try:
-        with open(JSON_FILE_PATH,"r") as f:
-            predictions = json.load(f)
+        all_predictions_objects = db.session.execute(
+            db.select(Prediction).order_by(Prediction.id)
+        ).scalars().all()
 
-    except FileNotFoundError:
-        return abort(404, description="File not found. Have you executed the Bicho Pipeline?")
-    except:
-        return abort(500, description="Internal error.")
+        predictions = [p.to_dict() for p in all_predictions_objects]
+
+    except Exception as e:
+        print(f"Database error: {e}")
+        return jsonify({'error': 'Internal server error reading predictions from database.'}), 500
     
-    # if there are queries (to find a specific game)
     home_query = request.args.get('home')
     away_query = request.args.get('away')
     team_query = request.args.get('team')
@@ -128,8 +139,3 @@ def get_user():
     if not user:
         return jsonify({'error': 'User not found.'}), 404
     return jsonify({'id': user.id, 'username': user.username}), 200
-
-if __name__ == "__main__":
-    with app.app_context():
-        db.create_all()
-    app.run(debug=True,port=5000)
