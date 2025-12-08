@@ -1,11 +1,8 @@
 name: Bicho Update Semanal
 
 on:
-  # Cron Job: Corre às 00:00 UTC todas as Terças-feiras.
   schedule:
-    - cron: '0 0 * * 2'
-  
-  # Permite correr manualmente
+    - cron: '0 0 * * 2' # Meia-noite UTC de Terça-feira
   workflow_dispatch:
 
 jobs:
@@ -24,7 +21,13 @@ jobs:
       - name: Instalar Dependências
         run: pip install -r requirements.txt
 
-      - name: Correr Script de Atualização
+      - name: Correr Migrações e Atualizar Dados
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
-        run: python bicho_ppl.py
+          FLASK_APP: api.py
+        run: |
+          echo "A verificar se a Base de Dados precisa de ser criada ou atualizada..."
+          flask db upgrade
+          
+          echo "A correr o Pipeline de Previsões..."
+          python bicho_ppl.py
