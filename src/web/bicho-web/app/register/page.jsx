@@ -3,9 +3,11 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { useToast } from '@/components/Toast'
+import { Loader2 } from 'lucide-react' 
 
 export default function RegisterPage() {
   const [form, setForm] = useState({ username: '', password: '', confirmPassword: '' })
+  const [loading, setLoading] = useState(false) 
   const router = useRouter()
   const { addToast } = useToast()
 
@@ -22,6 +24,7 @@ export default function RegisterPage() {
       return
     }
 
+    setLoading(true) 
     const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'
 
     try {
@@ -39,7 +42,9 @@ export default function RegisterPage() {
         addToast({ type: 'error', message: data.error || 'Erro ao criar conta.' })
       }
     } catch {
-      addToast({ type: 'error', message: 'Não foi possível ligar ao servidor.' })
+      addToast({ type: 'error', message: 'Não foi possível ligar ao servidor. Ele pode estar a acordar...' })
+    } finally {
+      setLoading(false) 
     }
   }
 
@@ -60,10 +65,11 @@ export default function RegisterPage() {
           <div className="flex flex-col gap-1">
             <label className="text-gray-400 text-sm">Username</label>
             <input
-              className="bg-black/40 text-white border border-white/10 rounded px-4 py-3 outline-none transition duration-300 focus:border-blue-500"
+              className="bg-black/40 text-white border border-white/10 rounded px-4 py-3 outline-none transition duration-300 focus:border-blue-500 disabled:opacity-50"
               onChange={e => setForm({ ...form, username: e.target.value })}
               placeholder="Escolhe um @username"
               required
+              disabled={loading}
             />
           </div>
 
@@ -71,10 +77,11 @@ export default function RegisterPage() {
             <label className="text-gray-400 text-sm">Password</label>
             <input
               type="password"
-              className="bg-black/40 text-white border border-white/10 rounded px-4 py-3 outline-none transition duration-300 focus:border-blue-500"
+              className="bg-black/40 text-white border border-white/10 rounded px-4 py-3 outline-none transition duration-300 focus:border-blue-500 disabled:opacity-50"
               onChange={e => setForm({ ...form, password: e.target.value })}
               placeholder="Password de 8 a 20 caracteres"
               required
+              disabled={loading}
             />
           </div>
 
@@ -82,18 +89,27 @@ export default function RegisterPage() {
             <label className="text-gray-400 text-sm">Confirmar Password</label>
             <input
               type="password"
-              className="bg-black/40 text-white border border-white/10 rounded px-4 py-3 outline-none transition duration-300 focus:border-blue-500"
+              className="bg-black/40 text-white border border-white/10 rounded px-4 py-3 outline-none transition duration-300 focus:border-blue-500 disabled:opacity-50"
               onChange={e => setForm({ ...form, confirmPassword: e.target.value })}
               placeholder="Repete a password"
               required
+              disabled={loading}
             />
           </div>
 
           <button
             type="submit"
-            className="w-full bg-white hover:bg-gray-200 text-black font-bold py-3 rounded-lg transition-transform hover:scale-[1.02] mt-2 active:scale-95"
+            disabled={loading}
+            className="w-full bg-white hover:bg-gray-200 text-black font-bold py-3 rounded-lg transition-all hover:scale-[1.02] mt-2 active:scale-95 disabled:opacity-70 disabled:hover:scale-100 disabled:cursor-wait flex items-center justify-center gap-2"
           >
-            Registar
+            {loading ? (
+              <>
+                <Loader2 className="animate-spin" size={20} />
+                A preparar a conta. Aguarde na página...
+              </>
+            ) : (
+              'Registar'
+            )}
           </button>
 
           <div className="flex flex-col sm:flex-row items-center justify-center text-sm mt-2">

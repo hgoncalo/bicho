@@ -262,7 +262,7 @@ export default function GameDetailsPage() {
                     </span>
                     {item.doubleChance && (
                       <span className="text-[10px] text-cyan-400 font-bold mt-1 uppercase tracking-wider">
-                        1X/X2: {item.doubleChance}%
+                        Vitória/Empate: {item.doubleChance}%
                       </span>
                     )}
                   </div>
