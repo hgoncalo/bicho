@@ -2,7 +2,7 @@ name: Bicho Update Semanal
 
 on:
   schedule:
-    - cron: '0 0 * * 4' # Meia-noite UTC de Terça-feira
+    - cron: '0 0 * * 4' # Meia-noite UTC de Quinta-feira
   workflow_dispatch:
 
 jobs:
