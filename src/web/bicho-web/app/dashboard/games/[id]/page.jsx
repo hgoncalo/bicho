@@ -261,8 +261,8 @@ export default function GameDetailsPage() {
                       {item.percent}<span className="text-lg text-zinc-600">%</span>
                     </span>
                     {item.doubleChance && (
-                      <span className="text-[10px] text-cyan-400 font-bold mt-1 uppercase tracking-wider">
-                        Vitória/Empate: {item.doubleChance}%
+                      <span className="text-[9px] text-cyan-400 font-bold mt-1 uppercase tracking-wider">
+                        ou empate: {item.doubleChance}%
                       </span>
                     )}
                   </div>
