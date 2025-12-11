@@ -2,7 +2,7 @@ name: Bicho Update Semanal
 
 on:
   schedule:
-    - cron: '0 0 * * 4' # Meia-noite UTC de Quinta-feira
+    - cron: '0 13 * * 4' # isto pode ser feito de uma maneira diferente, podemos ir buscar o proximo jogo e atualizar noutro dia
   workflow_dispatch:
 
 jobs:
